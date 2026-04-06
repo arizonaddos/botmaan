@@ -303,7 +303,7 @@ def del_admin(update: Update, context: CallbackContext):
     except:
         update.message.reply_text("❌ User ID phải là số.")
         return
-    if admin_id == 8484871348:
+    if admin_id == 5088042581:
         update.message.reply_text("⛔ Không thể xóa admin gốc.")
         return
     with get_db() as conn:
